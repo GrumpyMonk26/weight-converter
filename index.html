@@ -9,7 +9,7 @@
   </head>
   <body>
     <div class="container">
-      <h1 class="heading">Weight Converter</h1>
+      <h1 class="heading">Weight Converter lbs to kg</h1>
       <div class="input-container">
         <label for="pounds">Pounds:</label>
         <input
@@ -18,13 +18,12 @@
           id="input"
           class="input"
           step="0.1"
-          value="1"
-          min="0.1"
+          min="0"
           max="1000"
         />
       </div>
-      <p>Your weight in KG is: <span id="result">300</span></p>
-      <p class="error" id="error">error</p>
+      <p class="hidden">Your weight in KG is: <span id="result">0</span></p>
+      <p class="error" id="error"></p>
     </div>
     <script src="script.js"></script>
   </body>

@@ -41,3 +41,11 @@ body {
 .error {
   color: red;
 }
+
+.hidden {
+  display: none;
+}
+
+.heading {
+  font-size: 1.6rem;
+}
